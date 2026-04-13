@@ -1,0 +1,46 @@
+{
+  "name": "react-component-atlas",
+  "version": "0.2.1",
+  "description": "A Rust-powered parser for analyzing React component usage in codebases",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:native && npm run build:ts",
+    "build:native": "napi build --platform --release --manifest-path native/Cargo.toml --js false --dts index.d.ts",
+    "build:debug": "napi build --platform --manifest-path native/Cargo.toml --js false --dts index.d.ts",
+    "build:ts": "tsc",
+    "test": "jest",
+    "lint": "oxlint .",
+    "prepublishOnly": "npm run build"
+  },
+  "napi": {
+    "name": "react-component-atlas",
+    "triples": {
+      "defaults": true,
+      "additional": []
+    }
+  },
+  "keywords": [
+    "react",
+    "parser",
+    "component",
+    "analysis",
+    "ast"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "index.d.ts",
+    "*.node"
+  ],
+  "devDependencies": {
+    "@napi-rs/cli": "^3.6.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.0.0",
+    "jest": "^29.0.0",
+    "oxlint": "^1.60.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,24 @@
+[package]
+name = "react-component-atlas"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = { version = "3", default-features = false, features = ["napi9", "async"] }
+napi-derive = "3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+oxc_parser = "0.45"
+oxc_ast = "0.45"
+oxc_span = "0.45"
+oxc_allocator = "0.45"
+
+[build-dependencies]
+napi-build = "2"
+
+[profile.release]
+lto = true
+strip = "symbols"

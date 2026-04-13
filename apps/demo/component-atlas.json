@@ -1,0 +1,2316 @@
+{
+  "config": {
+    "include": [
+      "src/**/*.tsx",
+      "src/**/*.jsx"
+    ],
+    "exclude": [
+      "**/*.test.tsx",
+      "**/*.test.jsx",
+      "**/*.spec.tsx",
+      "**/*.spec.jsx",
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**"
+    ],
+    "components": [
+      "@mui/material",
+      "@mui/icons-material",
+      "react-router-dom"
+    ],
+    "output": "component-atlas.json"
+  },
+  "files": {
+    "src/app/app.tsx": {
+      "filePath": "src/app/app.tsx",
+      "bySource": [
+        {
+          "source": "../pages/Dashboard",
+          "components": [
+            {
+              "name": "Dashboard",
+              "importInfo": {
+                "name": "Dashboard",
+                "isDefault": true,
+                "line": 249
+              },
+              "usages": [
+                {
+                  "line": 1336,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/material",
+          "components": [
+            {
+              "name": "Button",
+              "importInfo": {
+                "name": "Button",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 810,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "color",
+                      "line": 818,
+                      "value": "inherit"
+                    },
+                    {
+                      "name": "component",
+                      "line": 834,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "to",
+                      "line": 857,
+                      "value": "/"
+                    }
+                  ]
+                },
+                {
+                  "line": 918,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "color",
+                      "line": 926,
+                      "value": "inherit"
+                    },
+                    {
+                      "name": "component",
+                      "line": 942,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "to",
+                      "line": 965,
+                      "value": "/dashboard"
+                    }
+                  ]
+                },
+                {
+                  "line": 1040,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "color",
+                      "line": 1048,
+                      "value": "inherit"
+                    },
+                    {
+                      "name": "component",
+                      "line": 1064,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "to",
+                      "line": 1087,
+                      "value": "/profile"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "createTheme",
+              "importInfo": {
+                "name": "createTheme",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": []
+            },
+            {
+              "name": "ThemeProvider",
+              "importInfo": {
+                "name": "ThemeProvider",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 516,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "theme",
+                      "line": 531,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CssBaseline",
+              "importInfo": {
+                "name": "CssBaseline",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 552,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Toolbar",
+              "importInfo": {
+                "name": "Toolbar",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 646,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Box",
+              "importInfo": {
+                "name": "Box",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 574,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 579,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Typography",
+              "importInfo": {
+                "name": "Typography",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 668,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 680,
+                      "value": "h6"
+                    },
+                    {
+                      "name": "component",
+                      "line": 693,
+                      "value": "div"
+                    },
+                    {
+                      "name": "sx",
+                      "line": 709,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AppBar",
+              "importInfo": {
+                "name": "AppBar",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 609,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "position",
+                      "line": 617,
+                      "value": "static"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Container",
+              "importInfo": {
+                "name": "Container",
+                "isDefault": false,
+                "line": 70
+              },
+              "usages": [
+                {
+                  "line": 1194,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1205,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "react-router-dom",
+          "components": [
+            {
+              "name": "Routes",
+              "importInfo": {
+                "name": "Routes",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1231,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Route",
+              "importInfo": {
+                "name": "Route",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1252,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "path",
+                      "line": 1259,
+                      "value": "/"
+                    },
+                    {
+                      "name": "element",
+                      "line": 1268,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1302,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "path",
+                      "line": 1309,
+                      "value": "/dashboard"
+                    },
+                    {
+                      "name": "element",
+                      "line": 1327,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1366,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "path",
+                      "line": 1373,
+                      "value": "/profile"
+                    },
+                    {
+                      "name": "element",
+                      "line": 1389,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RouterLink",
+              "importInfo": {
+                "name": "RouterLink",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": []
+            }
+          ]
+        },
+        {
+          "source": "../pages/Home",
+          "components": [
+            {
+              "name": "Home",
+              "importInfo": {
+                "name": "Home",
+                "isDefault": true,
+                "line": 215
+              },
+              "usages": [
+                {
+                  "line": 1277,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "../pages/Profile",
+          "components": [
+            {
+              "name": "Profile",
+              "importInfo": {
+                "name": "Profile",
+                "isDefault": true,
+                "line": 293
+              },
+              "usages": [
+                {
+                  "line": 1398,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "src/app/nx-welcome.tsx": {
+      "filePath": "src/app/nx-welcome.tsx",
+      "bySource": []
+    },
+    "src/main.tsx": {
+      "filePath": "src/main.tsx",
+      "bySource": [
+        {
+          "source": "react",
+          "components": [
+            {
+              "name": "StrictMode",
+              "importInfo": {
+                "name": "StrictMode",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 264,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "react-router-dom",
+          "components": [
+            {
+              "name": "BrowserRouter",
+              "importInfo": {
+                "name": "BrowserRouter",
+                "isDefault": false,
+                "line": 36
+              },
+              "usages": [
+                {
+                  "line": 281,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "react-dom/client",
+          "components": [
+            {
+              "name": "ReactDOM",
+              "importInfo": {
+                "name": "ReactDOM",
+                "isDefault": false,
+                "line": 86
+              },
+              "usages": []
+            }
+          ]
+        },
+        {
+          "source": "./app/app",
+          "components": [
+            {
+              "name": "App",
+              "importInfo": {
+                "name": "App",
+                "isDefault": true,
+                "line": 132
+              },
+              "usages": [
+                {
+                  "line": 303,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "src/pages/Dashboard.tsx": {
+      "filePath": "src/pages/Dashboard.tsx",
+      "bySource": [
+        {
+          "source": "@mui/icons-material/Dashboard",
+          "components": [
+            {
+              "name": "DashboardIcon",
+              "importInfo": {
+                "name": "DashboardIcon",
+                "isDefault": true,
+                "line": 227
+              },
+              "usages": [
+                {
+                  "line": 1315,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1330,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/TrendingUp",
+          "components": [
+            {
+              "name": "TrendingUpIcon",
+              "importInfo": {
+                "name": "TrendingUpIcon",
+                "isDefault": true,
+                "line": 286
+              },
+              "usages": [
+                {
+                  "line": 612,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/material",
+          "components": [
+            {
+              "name": "Box",
+              "importInfo": {
+                "name": "Box",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1222,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1227,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1638,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1643,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1718,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1723,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 2344,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 2349,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CardActions",
+              "importInfo": {
+                "name": "CardActions",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2157,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Button",
+              "importInfo": {
+                "name": "Button",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2189,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "size",
+                      "line": 2197,
+                      "value": "small"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TableBody",
+              "importInfo": {
+                "name": "TableBody",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2925,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "TableHead",
+              "importInfo": {
+                "name": "TableHead",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2558,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Chip",
+              "importInfo": {
+                "name": "Chip",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 3328,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "label",
+                      "line": 3358,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "color",
+                      "line": 3403,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "size",
+                      "line": 3690,
+                      "value": "small"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Table",
+              "importInfo": {
+                "name": "Table",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2536,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Container",
+              "importInfo": {
+                "name": "Container",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1190,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "maxWidth",
+                      "line": 1201,
+                      "value": "lg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TableContainer",
+              "importInfo": {
+                "name": "TableContainer",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2489,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "component",
+                      "line": 2505,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TableCell",
+              "importInfo": {
+                "name": "TableCell",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2615,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 2665,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 2715,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 2764,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "align",
+                      "line": 2775,
+                      "value": "right"
+                    }
+                  ]
+                },
+                {
+                  "line": 2826,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3048,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3103,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3163,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3222,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "align",
+                      "line": 3233,
+                      "value": "right"
+                    }
+                  ]
+                },
+                {
+                  "line": 3294,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "TableRow",
+              "importInfo": {
+                "name": "TableRow",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2586,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3002,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "key",
+                      "line": 3012,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Paper",
+              "importInfo": {
+                "name": "Paper",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": []
+            },
+            {
+              "name": "CardContent",
+              "importInfo": {
+                "name": "CardContent",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1606,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Grid",
+              "importInfo": {
+                "name": "Grid",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1424,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "container",
+                      "line": 1430
+                    },
+                    {
+                      "name": "spacing",
+                      "line": 1440,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "sx",
+                      "line": 1452,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1513,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "size",
+                      "line": 1519,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "key",
+                      "line": 1551,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Card",
+              "importInfo": {
+                "name": "Card",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1583,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Typography",
+              "importInfo": {
+                "name": "Typography",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1251,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 1263,
+                      "value": "h3"
+                    },
+                    {
+                      "name": "component",
+                      "line": 1276,
+                      "value": "h1"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 1291
+                    }
+                  ]
+                },
+                {
+                  "line": 1849,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 1861,
+                      "value": "h6"
+                    },
+                    {
+                      "name": "component",
+                      "line": 1874,
+                      "value": "div"
+                    }
+                  ]
+                },
+                {
+                  "line": 2003,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 2015,
+                      "value": "h4"
+                    },
+                    {
+                      "name": "component",
+                      "line": 2028,
+                      "value": "div"
+                    }
+                  ]
+                },
+                {
+                  "line": 2375,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 2387,
+                      "value": "h5"
+                    },
+                    {
+                      "name": "component",
+                      "line": 2400,
+                      "value": "h2"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 2415
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/People",
+          "components": [
+            {
+              "name": "PeopleIcon",
+              "importInfo": {
+                "name": "PeopleIcon",
+                "isDefault": true,
+                "line": 347
+              },
+              "usages": [
+                {
+                  "line": 530,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/ShoppingCart",
+          "components": [
+            {
+              "name": "ShoppingCartIcon",
+              "importInfo": {
+                "name": "ShoppingCartIcon",
+                "isDefault": true,
+                "line": 400
+              },
+              "usages": [
+                {
+                  "line": 693,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "src/pages/Home.tsx": {
+      "filePath": "src/pages/Home.tsx",
+      "bySource": [
+        {
+          "source": "@mui/material",
+          "components": [
+            {
+              "name": "Button",
+              "importInfo": {
+                "name": "Button",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 856,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 876,
+                      "value": "contained"
+                    },
+                    {
+                      "name": "color",
+                      "line": 908,
+                      "value": "primary"
+                    },
+                    {
+                      "name": "component",
+                      "line": 936,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "to",
+                      "line": 971,
+                      "value": "/dashboard"
+                    },
+                    {
+                      "name": "sx",
+                      "line": 999,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1084,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 1104,
+                      "value": "outlined"
+                    },
+                    {
+                      "name": "color",
+                      "line": 1135,
+                      "value": "secondary"
+                    },
+                    {
+                      "name": "component",
+                      "line": 1165,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "to",
+                      "line": 1200,
+                      "value": "/profile"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Container",
+              "importInfo": {
+                "name": "Container",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 213,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "maxWidth",
+                      "line": 224,
+                      "value": "md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Typography",
+              "importInfo": {
+                "name": "Typography",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 274,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 286,
+                      "value": "h2"
+                    },
+                    {
+                      "name": "component",
+                      "line": 299,
+                      "value": "h1"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 314
+                    }
+                  ]
+                },
+                {
+                  "line": 469,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 481,
+                      "value": "h5"
+                    },
+                    {
+                      "name": "component",
+                      "line": 494,
+                      "value": "h2"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 509
+                    }
+                  ]
+                },
+                {
+                  "line": 608,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 620,
+                      "value": "body1"
+                    },
+                    {
+                      "name": "paragraph",
+                      "line": 636
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Box",
+              "importInfo": {
+                "name": "Box",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 245,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 250,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 825,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 830,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/Home",
+          "components": [
+            {
+              "name": "HomeIcon",
+              "importInfo": {
+                "name": "HomeIcon",
+                "isDefault": true,
+                "line": 123
+              },
+              "usages": [
+                {
+                  "line": 338,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 348,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "react-router-dom",
+          "components": [
+            {
+              "name": "RouterLink",
+              "importInfo": {
+                "name": "RouterLink",
+                "isDefault": false,
+                "line": 68
+              },
+              "usages": []
+            }
+          ]
+        }
+      ]
+    },
+    "src/pages/Profile.tsx": {
+      "filePath": "src/pages/Profile.tsx",
+      "bySource": [
+        {
+          "source": "@mui/material",
+          "components": [
+            {
+              "name": "Avatar",
+              "importInfo": {
+                "name": "Avatar",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 848,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 872,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CardContent",
+              "importInfo": {
+                "name": "CardContent",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 748,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Box",
+              "importInfo": {
+                "name": "Box",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 575,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 580,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 774,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 779,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 1042,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 1564,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1569,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 3593,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 3598,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 3740,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 3745,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 4259,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 4264,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "List",
+              "importInfo": {
+                "name": "List",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2570,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "Button",
+              "importInfo": {
+                "name": "Button",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1264,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "size",
+                      "line": 1272,
+                      "value": "small"
+                    },
+                    {
+                      "name": "sx",
+                      "line": 1285,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 4319,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 4327,
+                      "value": "contained"
+                    },
+                    {
+                      "name": "color",
+                      "line": 4347,
+                      "value": "primary"
+                    }
+                  ]
+                },
+                {
+                  "line": 4431,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 4439,
+                      "value": "outlined"
+                    },
+                    {
+                      "name": "color",
+                      "line": 4458,
+                      "value": "secondary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Typography",
+              "importInfo": {
+                "name": "Typography",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 604,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 616,
+                      "value": "h3"
+                    },
+                    {
+                      "name": "component",
+                      "line": 629,
+                      "value": "h1"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 644
+                    }
+                  ]
+                },
+                {
+                  "line": 1064,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 1076,
+                      "value": "h5"
+                    }
+                  ]
+                },
+                {
+                  "line": 1127,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 1139,
+                      "value": "body2"
+                    },
+                    {
+                      "name": "color",
+                      "line": 1155,
+                      "value": "text.secondary"
+                    }
+                  ]
+                },
+                {
+                  "line": 1452,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 1464,
+                      "value": "h6"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 1477
+                    }
+                  ]
+                },
+                {
+                  "line": 2463,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 2475,
+                      "value": "h6"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 2488
+                    }
+                  ]
+                },
+                {
+                  "line": 3490,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "variant",
+                      "line": 3502,
+                      "value": "h6"
+                    },
+                    {
+                      "name": "gutterBottom",
+                      "line": 3515
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ListItem",
+              "importInfo": {
+                "name": "ListItem",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2591,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 2871,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3146,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "TextField",
+              "importInfo": {
+                "name": "TextField",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1649,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "fullWidth",
+                      "line": 1676
+                    },
+                    {
+                      "name": "label",
+                      "line": 1702,
+                      "value": "Full Name"
+                    },
+                    {
+                      "name": "defaultValue",
+                      "line": 1736,
+                      "value": "John Doe"
+                    },
+                    {
+                      "name": "variant",
+                      "line": 1776,
+                      "value": "outlined"
+                    }
+                  ]
+                },
+                {
+                  "line": 1826,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "fullWidth",
+                      "line": 1853
+                    },
+                    {
+                      "name": "label",
+                      "line": 1879,
+                      "value": "Email"
+                    },
+                    {
+                      "name": "defaultValue",
+                      "line": 1909,
+                      "value": "john.doe@example.com"
+                    },
+                    {
+                      "name": "variant",
+                      "line": 1961,
+                      "value": "outlined"
+                    },
+                    {
+                      "name": "type",
+                      "line": 1996,
+                      "value": "email"
+                    }
+                  ]
+                },
+                {
+                  "line": 2040,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "fullWidth",
+                      "line": 2067
+                    },
+                    {
+                      "name": "label",
+                      "line": 2093,
+                      "value": "Phone"
+                    },
+                    {
+                      "name": "defaultValue",
+                      "line": 2123,
+                      "value": "+1 234 567 8900"
+                    },
+                    {
+                      "name": "variant",
+                      "line": 2170,
+                      "value": "outlined"
+                    }
+                  ]
+                },
+                {
+                  "line": 2220,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "fullWidth",
+                      "line": 2247
+                    },
+                    {
+                      "name": "label",
+                      "line": 2273,
+                      "value": "Location"
+                    },
+                    {
+                      "name": "defaultValue",
+                      "line": 2306,
+                      "value": "San Francisco, CA"
+                    },
+                    {
+                      "name": "variant",
+                      "line": 2355,
+                      "value": "outlined"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Switch",
+              "importInfo": {
+                "name": "Switch",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 3671,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "defaultChecked",
+                      "line": 3679
+                    }
+                  ]
+                },
+                {
+                  "line": 4007,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 4135,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "defaultChecked",
+                      "line": 4143
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Divider",
+              "importInfo": {
+                "name": "Divider",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 1412,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 1421,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 2423,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 2432,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 3450,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 3459,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Card",
+              "importInfo": {
+                "name": "Card",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 716,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 722,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ListItemIcon",
+              "importInfo": {
+                "name": "ListItemIcon",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2618,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 2898,
+                  "col": 0,
+                  "props": []
+                },
+                {
+                  "line": 3173,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            },
+            {
+              "name": "FormControlLabel",
+              "importInfo": {
+                "name": "FormControlLabel",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 3628,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "control",
+                      "line": 3662,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "label",
+                      "line": 3714,
+                      "value": "<expression>"
+                    }
+                  ]
+                },
+                {
+                  "line": 3964,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "control",
+                      "line": 3998,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "label",
+                      "line": 4035,
+                      "value": "SMS Notifications"
+                    }
+                  ]
+                },
+                {
+                  "line": 4092,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "control",
+                      "line": 4126,
+                      "value": "<expression>"
+                    },
+                    {
+                      "name": "label",
+                      "line": 4178,
+                      "value": "Newsletter Subscription"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Container",
+              "importInfo": {
+                "name": "Container",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 543,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "maxWidth",
+                      "line": 554,
+                      "value": "md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ListItemText",
+              "importInfo": {
+                "name": "ListItemText",
+                "isDefault": false,
+                "line": 0
+              },
+              "usages": [
+                {
+                  "line": 2713,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "primary",
+                      "line": 2745,
+                      "value": "Email"
+                    },
+                    {
+                      "name": "secondary",
+                      "line": 2779,
+                      "value": "john.doe@example.com"
+                    }
+                  ]
+                },
+                {
+                  "line": 2993,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "primary",
+                      "line": 3025,
+                      "value": "Phone"
+                    },
+                    {
+                      "name": "secondary",
+                      "line": 3059,
+                      "value": "+1 234 567 8900"
+                    }
+                  ]
+                },
+                {
+                  "line": 3273,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "primary",
+                      "line": 3305,
+                      "value": "Location"
+                    },
+                    {
+                      "name": "secondary",
+                      "line": 3342,
+                      "value": "San Francisco, CA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/Person",
+          "components": [
+            {
+              "name": "PersonIcon",
+              "importInfo": {
+                "name": "PersonIcon",
+                "isDefault": true,
+                "line": 216
+              },
+              "usages": [
+                {
+                  "line": 967,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 979,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/LocationOn",
+          "components": [
+            {
+              "name": "LocationOnIcon",
+              "importInfo": {
+                "name": "LocationOnIcon",
+                "isDefault": true,
+                "line": 371
+              },
+              "usages": [
+                {
+                  "line": 3206,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/Phone",
+          "components": [
+            {
+              "name": "PhoneIcon",
+              "importInfo": {
+                "name": "PhoneIcon",
+                "isDefault": true,
+                "line": 320
+              },
+              "usages": [
+                {
+                  "line": 2931,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/Notifications",
+          "components": [
+            {
+              "name": "NotificationsIcon",
+              "importInfo": {
+                "name": "NotificationsIcon",
+                "isDefault": true,
+                "line": 432
+              },
+              "usages": [
+                {
+                  "line": 3813,
+                  "col": 0,
+                  "props": [
+                    {
+                      "name": "sx",
+                      "line": 3832,
+                      "value": "<expression>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "@mui/icons-material/Email",
+          "components": [
+            {
+              "name": "EmailIcon",
+              "importInfo": {
+                "name": "EmailIcon",
+                "isDefault": true,
+                "line": 269
+              },
+              "usages": [
+                {
+                  "line": 2651,
+                  "col": 0,
+                  "props": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalFiles": 6,
+    "totalComponents": 50,
+    "bySource": {
+      "../pages/Dashboard": {
+        "components": [
+          "Dashboard"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/app/app.tsx"
+        ]
+      },
+      "@mui/material": {
+        "components": [
+          "AppBar",
+          "Avatar",
+          "Box",
+          "Button",
+          "Card",
+          "CardActions",
+          "CardContent",
+          "Chip",
+          "Container",
+          "CssBaseline",
+          "Divider",
+          "FormControlLabel",
+          "Grid",
+          "List",
+          "ListItem",
+          "ListItemIcon",
+          "ListItemText",
+          "Paper",
+          "Switch",
+          "Table",
+          "TableBody",
+          "TableCell",
+          "TableContainer",
+          "TableHead",
+          "TableRow",
+          "TextField",
+          "ThemeProvider",
+          "Toolbar",
+          "Typography",
+          "createTheme"
+        ],
+        "totalUsages": 93,
+        "files": [
+          "src/app/app.tsx",
+          "src/pages/Dashboard.tsx",
+          "src/pages/Home.tsx",
+          "src/pages/Profile.tsx"
+        ]
+      },
+      "react-router-dom": {
+        "components": [
+          "BrowserRouter",
+          "Route",
+          "RouterLink",
+          "Routes"
+        ],
+        "totalUsages": 5,
+        "files": [
+          "src/app/app.tsx",
+          "src/main.tsx",
+          "src/pages/Home.tsx"
+        ]
+      },
+      "../pages/Home": {
+        "components": [
+          "Home"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/app/app.tsx"
+        ]
+      },
+      "../pages/Profile": {
+        "components": [
+          "Profile"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/app/app.tsx"
+        ]
+      },
+      "react": {
+        "components": [
+          "StrictMode"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/main.tsx"
+        ]
+      },
+      "react-dom/client": {
+        "components": [
+          "ReactDOM"
+        ],
+        "totalUsages": 0,
+        "files": [
+          "src/main.tsx"
+        ]
+      },
+      "./app/app": {
+        "components": [
+          "App"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/main.tsx"
+        ]
+      },
+      "@mui/icons-material/Dashboard": {
+        "components": [
+          "DashboardIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Dashboard.tsx"
+        ]
+      },
+      "@mui/icons-material/TrendingUp": {
+        "components": [
+          "TrendingUpIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Dashboard.tsx"
+        ]
+      },
+      "@mui/icons-material/People": {
+        "components": [
+          "PeopleIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Dashboard.tsx"
+        ]
+      },
+      "@mui/icons-material/ShoppingCart": {
+        "components": [
+          "ShoppingCartIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Dashboard.tsx"
+        ]
+      },
+      "@mui/icons-material/Home": {
+        "components": [
+          "HomeIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Home.tsx"
+        ]
+      },
+      "@mui/icons-material/Person": {
+        "components": [
+          "PersonIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Profile.tsx"
+        ]
+      },
+      "@mui/icons-material/LocationOn": {
+        "components": [
+          "LocationOnIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Profile.tsx"
+        ]
+      },
+      "@mui/icons-material/Phone": {
+        "components": [
+          "PhoneIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Profile.tsx"
+        ]
+      },
+      "@mui/icons-material/Notifications": {
+        "components": [
+          "NotificationsIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Profile.tsx"
+        ]
+      },
+      "@mui/icons-material/Email": {
+        "components": [
+          "EmailIcon"
+        ],
+        "totalUsages": 1,
+        "files": [
+          "src/pages/Profile.tsx"
+        ]
+      }
+    }
+  }
+}

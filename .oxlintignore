@@ -1,0 +1,16 @@
+# Build output
+dist
+target
+node_modules
+*.node
+
+# Generated files
+packages/react-component-atlas/native/target/
+native/target/
+
+# Test output
+coverage
+test-output
+
+# Nx cache
+.nx/

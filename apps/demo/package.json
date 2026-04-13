@@ -1,0 +1,12 @@
+{
+  "name": "@org/demo",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.0.0",
+    "@mui/material": "^9.0.0",
+    "react-router-dom": "^6.30.3"
+  }
+}

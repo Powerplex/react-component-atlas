@@ -1,0 +1,21 @@
+{
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.jsx"
+  ],
+  "exclude": [
+    "**/*.test.tsx",
+    "**/*.test.jsx",
+    "**/*.spec.tsx",
+    "**/*.spec.jsx",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**"
+  ],
+  "components": [
+    "@mui/material",
+    "@mui/icons-material",
+    "react-router-dom"
+  ],
+  "output": "component-atlas.json"
+}
